@@ -13,7 +13,7 @@ source "googlecompute" "base" {
 }
 
 source "amazon-ebs" "base" {
-  region = var.region
+  region = var.aws_region
 
   source_ami_filter {
     filters = {
