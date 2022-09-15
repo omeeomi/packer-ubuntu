@@ -1,16 +1,16 @@
 variable "project_id" {
   type = string
-  default = "hc-24a8e492b4d4480484b7b748091"
+  default = "hc-b069fffea4124fddaeedaaf1021"
 }
 
 variable "google_region" {
   type = string
-  default = "australia-southeast2"
+  default = "us-west2"
 }
 
 variable "google_zone" {
   type = string
-  default = "australia-southeast2-a"
+  default = "us-west2a"
 }
 variable "prefix" {
 	type = string
