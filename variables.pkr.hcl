@@ -17,18 +17,13 @@ variable "prefix" {
 	default = "base"
 }
 
-variable "region" {
+variable "aws_region" {
     type = string
-    default = "ap-southeast-2"
+    default = "us-east-1"
 }
 variable "owner" {
     type = string
-    default = "Burkey"
-}
-
-variable "vault_addr" {
-    type = string
-    default = "http://vault:8200"
+    default = "Omid"
 }
 
 variable "ansible_user_password" {
