@@ -1,6 +1,6 @@
 build {
   hcp_packer_registry {
-    bucket_name = "omid-golden-ubuntu"
+    bucket_name = "golden-ubuntu-image"
     description = <<EOT
 Ubuntu 20.04 golden master.
     EOT
