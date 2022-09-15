@@ -30,9 +30,5 @@ Ubuntu 20.04 golden master.
   provisioner "ansible" {
     playbook_file = "./playbook.yaml"
     user = "ubuntu"
-    extra_arguments = [
-			"--extra-vars",
-			"vault_addr=${var.vault_addr} ansible_user_password=${var.ansible_user_password}"
-		]
   }
 }
